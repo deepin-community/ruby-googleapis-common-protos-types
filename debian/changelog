@@ -1,0 +1,5 @@
+ruby-googleapis-common-protos-types (1.0.1-deepin) unstable; urgency=medium
+
+  *  ['Rebuild  against by  current gcc 11.2']
+
+ -- wangxiangyu <wangxiangyu@uniontech.com>  Fri, 12 Aug 2022 15:15:26 +0100
