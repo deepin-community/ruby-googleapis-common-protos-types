@@ -1,5 +1,72 @@
-ruby-googleapis-common-protos-types (1.0.1-deepin) unstable; urgency=medium
+ruby-googleapis-common-protos-types (1.4.0-1) unstable; urgency=medium
 
-  *  ['Rebuild  against by  current gcc 11.2']
+  * Team upload
 
- -- wangxiangyu <wangxiangyu@uniontech.com>  Fri, 12 Aug 2022 15:15:26 +0100
+  [ Debian Janitor ]
+  * Bump debhelper from old 12 to 13.
+  * Set upstream metadata fields: Repository-Browse.
+  * Update standards version to 4.6.1, no changes needed.
+
+  [ Antonio Terceiro ]
+  * New upstream version 1.4.0
+  * debian/upstream/metadata: update from upstream metadata
+  * debian/control: update with dh-make-ruby
+    - Bump build dependencies on gem2deb to (>= 1) and and on
+      ruby-google-protobuf to (>= 3.14)
+    - Update homepage from upstream metadata
+    - add Rules-Requires-Root: no
+    - Drop *-Ruby-Version fields
+    - Replace hardcoded dependencies with ${ruby:Depends}
+  * Drop patches, not necessary anymore
+
+ -- Antonio Terceiro <terceiro@debian.org>  Wed, 28 Dec 2022 09:26:11 -0300
+
+ruby-googleapis-common-protos-types (1.0.5-2) unstable; urgency=medium
+
+  * Team Upload
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Update watch file format version to 4.
+  * Update standards version to 4.5.1, no changes needed.
+  * Remove constraints unnecessary since buster:
+    + Build-Depends: Drop versioned constraint on ruby-google-protobuf.
+    + ruby-googleapis-common-protos-types: Drop versioned constraint on
+      ruby-google-protobuf in Depends.
+
+  [ Pirate Praveen ]
+  * Bump Standards-Version to 4.6.0 (no changes needed)
+  * Switch to gem-install layout for bundle --local support
+  * Remove git usage in gemspec file
+
+ -- Pirate Praveen <praveen@debian.org>  Sun, 23 Jan 2022 01:07:23 +0530
+
+ruby-googleapis-common-protos-types (1.0.5-1) unstable; urgency=medium
+
+  [ Utkarsh Gupta ]
+  * Add salsa-ci.yml
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Bump debhelper from old 11 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Update standards version to 4.2.1, no changes needed.
+
+  [ Pushkara Sharma ]
+  * New upstream release 1.0.5
+  * Update standards version to 4.5.0, no changes needed.
+
+ -- Pushkara Sharma <pushkarasharma11@gmail.com>  Thu, 04 Jun 2020 17:10:47 +0000
+
+ruby-googleapis-common-protos-types (1.0.2-1) unstable; urgency=medium
+
+  * New upstream Release
+  * Standard version changed
+
+ -- Manas Kashyap <manaskashyaptech@gmail.com>  Sat, 11 Aug 2018 05:22:25 +0000
+
+ruby-googleapis-common-protos-types (1.0.1-1) unstable; urgency=medium
+
+  * Initial release (Closes: #897240)
+
+ -- Manas kashyap <manaskashyaptech@gmail.com>  Mon, 30 Apr 2018 17:18:26 +0000
